@@ -8,7 +8,6 @@ export default class List {
     this.tasks = data.tasks;
   }
   get Template() {
-    debugger;
     return `
     <div class="col-lg-4 col-md-6 col-sm-12 mt-3 p-3 border rounded bg-info">
           <h4 class="text-center border-bottom d-flex justify-content-between">${
